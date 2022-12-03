@@ -32,6 +32,8 @@ import { truncate } from '@jimmy-guzman/utils'
 truncate('this is very large text')
 ```
 
+See [docs](https://jimmy-guzman.github.io/utils/) for available utils
+
 <!-- badges links -->
 
 [actions-badge]: https://img.shields.io/github/workflow/status/jimmy-guzman/utils/release?label=actions&logo=github-actions&style=flat-square
