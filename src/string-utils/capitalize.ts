@@ -1,5 +1,6 @@
 /**
  * Capitalize words in a sentence
+ * @category String Utils
  * @example
  * capitalize("this is a sentence") // This Is A Sentence
  */

@@ -1,5 +1,6 @@
 /**
  * Truncates text based on the given length and adds an ellipsis
+ * @category String Utils
  * @example
  * truncate("this is very large text") // this ...
  */
