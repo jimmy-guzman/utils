@@ -18,7 +18,7 @@ runs:
 
     - name: ✅ Test
       shell: bash
-      run: pnpm test:coverage
+      run: pnpm coverage
 
     - name: ✅ Coverage
       uses: codecov/codecov-action@v3
