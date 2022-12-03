@@ -1,9 +1,9 @@
 {
-  "name": "library-template",
+  "name": "@jimmy-guzman/utils",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimmy-guzman/library-template.git"
+    "url": "https://github.com/jimmy-guzman/utils.git"
   },
   "license": "MIT",
   "keywords": [],
@@ -43,9 +43,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "17.3.0",
-    "@semantic-release/changelog": "6.0.2",
     "@semantic-release/commit-analyzer": "9.0.2",
-    "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
     "@vitest/coverage-c8": "0.25.3",
