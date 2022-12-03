@@ -2,6 +2,7 @@ import { defineConfig } from 'tsup'
 
 export default defineConfig(({ watch = false }) => {
   return {
+    splitting: true,
     entry: ['src/index.ts'],
     clean: true,
     dts: !watch,

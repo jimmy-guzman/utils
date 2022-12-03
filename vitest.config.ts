@@ -7,7 +7,7 @@ export default defineConfig({
     coverage: {
       all: true,
       src: ['src'],
-      exclude: ['**/index.ts'],
+      exclude: ['**/index.ts', '**/*.spec.*'],
       branches: 100,
       functions: 100,
       lines: 100,
