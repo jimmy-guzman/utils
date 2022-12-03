@@ -20,11 +20,20 @@ jobs:
       - name: 🦺 Validate
         uses: ./.github/actions/validate
 
-      - name: 🔧 Build
+      - name: 🔧 Build Package
         run: pnpm build
 
-      - name: 🚀 Publish
+      - name: 🚀 Publish Package
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: pnpm exec semantic-release --branches main
+
+      - name: 🔧 Build Docs
+        run: pnpm exec typedoc
+
+      - name: 🚀 Deploy Docs
+        uses: JamesIves/github-pages-deploy-action@4.4.1
+        with:
+          branch: gh-pages
+          folder: docs
