@@ -1,22 +1,36 @@
 ![actions][actions-badge]
 [![version][version-badge]][package] [![downloads][downloads-badge]][npmtrends]
 [![Code Coverage][coverage-badge]][coverage]
-[![semantic-release][semantic-release-badge]][semantic-release]
-[![code style: prettier][prettier-badge]][prettier]
 
 # @jimmy-guzman/utils
 
-<!-- ![description starts here] -->
+> 🗄️ Collection of utilities used throughout personal projects
 
-> 🍱 Utilities used in personal projects
+## ➕ Install
 
-<!-- ![description ends here] -->
+```shell
+npm i @jimmy-guzman/utils
+```
 
-## Usage
+Or with yarn
 
-<!-- ![usage starts here] -->
+```shell
+yarn add @jimmy-guzman/utils
+```
 
-<!-- ![usage ends here] -->
+Or with pnpm
+
+```shell
+pnpm add @jimmy-guzman/utils
+```
+
+## 📝 Usage
+
+```ts
+import { truncate } from '@jimmy-guzman/utils'
+
+truncate('this is very large text')
+```
 
 <!-- badges links -->
 
@@ -25,9 +39,5 @@
 [package]: https://www.npmjs.com/package/@jimmy-guzman/utils
 [downloads-badge]: https://img.shields.io/npm/dm/@jimmy-guzman/utils.svg?logo=npm&style=flat-square
 [npmtrends]: http://www.npmtrends.com/@jimmy-guzman
-[semantic-release]: https://semantic-release.gitbook.io/semantic-release/
-[semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
 [coverage-badge]: https://img.shields.io/codecov/c/github/jimmy-guzman/utils.svg?style=flat-square
 [coverage]: https://codecov.io/github/jimmy-guzman/utils
-[prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
-[prettier]: https://github.com/prettier/prettier

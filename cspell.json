@@ -21,6 +21,7 @@
     "shellcheck",
     "streetsidesoftware",
     "tsup",
+    "typedoc",
     "vitest",
     "wagoid",
     "yalc"
@@ -35,6 +36,7 @@
     "*.dll", // Ignore all .dll files.
     "**/*.dll", // Ignore all .dll files,
     "yarn.lock",
-    "pnpm-lock.yaml"
+    "pnpm-lock.yaml",
+    ".gitignore"
   ]
 }
