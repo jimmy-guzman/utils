@@ -7,7 +7,9 @@
     "url": "https://github.com/jimmy-guzman/utils.git"
   },
   "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "utilities"
+  ],
   "publishConfig": {
     "access": "public"
   },
