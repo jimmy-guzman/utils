@@ -32,7 +32,7 @@ import { truncate } from '@jimmy-guzman/utils'
 truncate('this is very large text')
 ```
 
-See [docs](https://jimmy-guzman.github.io/utils/) for available utils
+See [docs](https://jimmy-guzman.github.io/utils/modules.html) for available utils
 
 <!-- badges links -->
 
