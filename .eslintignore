@@ -4,6 +4,7 @@ CHANGELOG.md
 .yalc
 dist
 coverage
+docs
 
 !.config/
 !.github/
